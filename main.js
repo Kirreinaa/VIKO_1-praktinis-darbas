@@ -1,31 +1,35 @@
-const cards = [
-    {
-        title: "outfit",
-        description: "new",
-        price: "9,99$",
-    },
-    {
-        title: "outfit1",
-        description: "new1",
-        price: "9,99$1",
-    },
-    {
-        title: "outfit2",
-        description: "new2",
-        price: "9,99$2",
-    },
+// const cards = [
+//     {
+//         title: "outfit",
+//         description: "new",
+//         price: "9,99$",
+//     },
+//     {
+//         title: "outfit1",
+//         description: "new1",
+//         price: "9,99$1",
+//     },
+//     {
+//         title: "outfit2",
+//         description: "new2",
+//         price: "9,99$2",
+//     },
 
-];
+// ];
 
-const appleDevices = {
-    name: "ipad",
-    params: {
-        version: 1,
-    },
-}
+// // const appleDevices = {
+// //     name: "ipad",
+// //     params: {
+// //         version: 1,
+// //     },
+// // }
 
-const cardsContainer = document.querySelector("#cards")
+// const cardsContainer = document.querySelector("#cards")
 
-console.log("text", appleDevices.params.version)
+// cardsContainer.innerHTML = 
+//     <div class = "card">
+//         <p></p>
+//     </div>
 
-{anime: ""}
+
+// // console.log("text", appleDevices.params.version)
