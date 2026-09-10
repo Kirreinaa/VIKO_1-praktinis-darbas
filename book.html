@@ -4,9 +4,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width" initial-scale="1.0">
-        <title>About us</title>
-        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">          <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
@@ -23,7 +21,39 @@
         </header>
 
         <main>
-            <p>book a stylist</p>
+            <div class="booking-container">
+            <section class="booking-info">
+                <h2>Find your VYBE</h2>
+
+                <p>
+                    Not sure what to wear? Our stylist will help you create
+                    an outfit that fits your personality, occasion and budget.
+                </p>
+
+                <p>
+                    Fill out the form below and we will contact you by email
+                    within two business days.
+                </p>
+            </section>
+
+            <section class="booking-form">
+                <label for="name">How should we call you?</label>
+                <input type="text" id="name" placeholder="Your name">
+
+                <label for="email">Your Email:</label>
+                <input type="text" id="email" placeholder="Email">
+
+                <label for="budget">What is your budget?</label>
+                <select id="budget">
+                    <option>under $50</option>
+                    <option>$50-100$</option>
+                    <option>$100-150$</option>
+                    <option>$150+</option>
+
+                </select>
+                <button class="book-button" type="submit"> BOOK NOW </button>
+            </section>
+            </div>
         </main>
 
 

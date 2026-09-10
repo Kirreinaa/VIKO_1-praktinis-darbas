@@ -25,7 +25,7 @@ body {
 }
 
 .card {
-    border: 5px solid rgb(5, 4, 4);
+    border: 5px solid  rgb(152, 151, 151);
     padding: 16px;
     width: 300px;
     height: 450px;
@@ -63,6 +63,7 @@ nav {
     justify-content: center;
     width: 70%;
     padding: 40px;
+    color: rgb(152, 151, 151)
 }
 
 .home-aside {
@@ -73,10 +74,48 @@ nav {
     flex-direction: column;
     justify-content: center;
     border: 2px solid red;
+    color: rgb(152, 151, 151);
 }
 
 main {
     display: flex;
     flex: 1;
     padding: 30px;
+}
+
+.home-button {
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.aside-button {
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.booking-form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(152, 151, 151);
+    margin-top: 50px;
+}
+
+.book-button {
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    color: rgb(152, 151, 151);
+}
+
+.about-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
 }
