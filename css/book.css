@@ -7,6 +7,7 @@
     border:3px solid #A855F7;
     padding: 30px;
     border-radius: 20px;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
 }
 
 .book-button {
@@ -22,6 +23,7 @@
     width: 220px;
     height: 42px;
     margin-top: 20px;  
+    
 
     background: linear-gradient(
     to bottom,
@@ -56,4 +58,34 @@
 .booking-info {
     color: #A9A3C7;
     max-width: 80%;
+}
+
+.booking-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.text-input {
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
+    border: 2px solid #A855F7;
+    height: 45px;
+    background-color: #080A18;
+    outline: none;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
 }

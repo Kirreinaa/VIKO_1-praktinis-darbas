@@ -24,34 +24,52 @@
         <main>
             <div class="booking-container">
                 <h2 class="book-title">Find your VYBE</h2>
-            <section class="booking-info">
-                    <p>
-                        Not sure what to wear? Our stylist will help you create
-                        an outfit that fits your personality, occasion and budget.
-                    </p>
+                <section class="booking-info">
+                        <p>
+                            Not sure what to wear? Our stylist will help you create
+                            an outfit that fits your personality, occasion and budget.
+                        </p>
 
-                    <p>
-                        Fill out the form below and we will contact you by email
-                        within two business days.
-                    </p>
-            </section>
+                        <p>
+                            Fill out the form below and we will contact you by email
+                            within two business days.
+                        </p>
+                </section>
 
-            <section class="booking-form">
-                <label for="name">Your name</label>
-                <input type="text" id="name" placeholder="Enter your name">
+                <div class="booking-cards">
 
-                <label for="email">Your Email:</label>
-                <input type="text" id="email" placeholder="Enter your email">
+                <section class="booking-form">
 
-                <label for="budget">What is your budget?</label>
-                <select id="budget">
-                    <option>under $50</option>
-                    <option>$50-100$</option>
-                    <option>$100-150$</option>
-                    <option>$150+</option>
-                </select>
-                <button class="book-button" type="submit"> BOOK NOW </button>
-            </section>
+                    <div class="form-row">
+
+                        <div class="form-field">
+                            <label for="name">Your name:</label>
+                            <input class="text-input" type="text" id="name" placeholder="Enter your name">
+                        </div>
+
+                        <div class="form-field">
+                            <label for="email">Your Email:</label>
+                            <input class="text-input" type="text" id="email" placeholder="Enter your email">
+                        </div>
+
+                    </div>
+
+                    <label for="budget">What is your budget?</label>
+                    <select id="budget">
+                        <option>under $50</option>
+                        <option>$50-100$</option>
+                        <option>$100-150$</option>
+                        <option>$150+</option>
+                    </select>
+
+                    <button onclick="alert" class="book-button" type="submit">BOOK NOW</button>
+
+                </section>
+
+                    <aside class="booking-aside">
+                        why booking with VYBE?
+                    </aside>
+                </div>
             </div>
         </main>
 
