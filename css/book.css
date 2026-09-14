@@ -1,5 +1,5 @@
 .booking-form {
-    width: 500px;
+    width: 900px;
     display: flex;
     flex-direction: column;
     color: #D8C7FF;
@@ -22,7 +22,7 @@
     color: #080A18;
     width: 220px;
     height: 42px;
-    margin-top: 20px;  
+    /* margin-top: 20px;   */
     
 
     background: linear-gradient(
@@ -57,7 +57,7 @@
 
 .booking-info {
     color: #A9A3C7;
-    max-width: 80%;
+    max-width: 50%;
 }
 
 .booking-cards {
@@ -75,8 +75,22 @@
     outline: none;
     padding: 5px;
     margin-top: 10px;
-    margin-bottom: 10px;
-    width: 200px;
+    margin-bottom: 50px;
+    width: 400px;
+    color: #A9A3C7
+}
+
+.select-options {
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
+    border: 2px solid #A855F7;
+    height: 45px;
+    background-color: #080A18;
+    outline: none;
+    padding: 5px;
+    width: 400px; 
+    margin-bottom: 50px;  
+    color: #A9A3C7
 }
 
 .form-row {
@@ -88,4 +102,18 @@
 .form-field {
     display: flex;
     flex-direction: column;
+}
+
+.big-text-input {
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
+    border: 2px solid #A855F7;
+    height: 90px;
+    background-color: #080A18;
+    outline: none;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 840px;
+    color: #A9A3C7
 }

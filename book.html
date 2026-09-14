@@ -54,22 +54,45 @@
 
                     </div>
 
-                    <label for="budget">What is your budget?</label>
-                    <select id="budget">
-                        <option>under $50</option>
-                        <option>$50-100$</option>
-                        <option>$100-150$</option>
-                        <option>$150+</option>
-                    </select>
+                    <div class="form-row">
 
-                    <button onclick="alert" class="book-button" type="submit">BOOK NOW</button>
+                        <div class="form-field">
+                            <label for="budget">What is your budget?</label>
+                            <select class="select-options" id="budget">
+                                <option>under $50</option>
+                                <option>$50-100$</option>
+                                <option>$100-150$</option>
+                                <option>$150+</option>
+                            </select>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="outfit-style">How do you want your outfit to feel?</label>
+                            <select class="select-options" id="outfit-style">
+                                <option>Bold & edgy</option>
+                                <option>Soft & dreamy</option>
+                                <option>Y2K & playful</option>
+                                <option>Simple & clean</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="form-field">
+                            <label>Tell us about yourself</label>
+                            <input class="big-text-input" type="text" id="about-yourself" placeholder="For example: I'm going to a concert, I prefer dark colors, I need something casual...">
+                    </div>
+
+                    <button class="book-button" type="submit">BOOK NOW</button>
 
                 </section>
 
                     <aside class="booking-aside">
                         why booking with VYBE?
                     </aside>
+
                 </div>
+
             </div>
         </main>
 
