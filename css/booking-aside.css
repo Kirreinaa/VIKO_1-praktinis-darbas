@@ -1,0 +1,9 @@
+.booking-aside {
+    max-width: 30%;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
+    border: 2px solid #A855F7;
+    color: #A9A3C7;
+}

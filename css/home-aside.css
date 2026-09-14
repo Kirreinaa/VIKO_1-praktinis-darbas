@@ -1,0 +1,87 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    padding: 40px;
+    color: rgb(152, 151, 151);
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+.home-aside {
+    width: 30%;
+    width: 400px;
+    height: 450px;
+    padding: 40px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #A855F7;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
+    color: #A9A3C7;
+    align-self: center;
+}
+
+.home-aside h2 {
+    font-family: "arcade";
+    color: #D8C7FF;
+    font-size: 28px;
+    margin-bottom: 20px; 
+    word-spacing: 3px;
+}
+
+.aside-description {
+    color: #A9A3C7;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.aside-button {
+    font-family: "arcade";
+    cursor: pointer;
+    border-radius: 30px;
+    border: 2px solid #D8C7FF;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #080A18;
+    width: 220px;
+    height: 42px;
+    margin-top: 20px;  
+
+    background: linear-gradient(
+    to bottom,
+    #D8C7FF,
+    #B388FF,
+    #A855F7
+); 
+
+    box-shadow:
+    inset 0 8px 10px rgba(255, 255, 255, 0.8),
+    inset 0 -8px 10px rgba(109, 40, 217, 0.6),
+    0 0 20px rgba(168, 85, 247, 0.7);
+
+    transition: 0.2s;
+}
+
+.aside-button:hover {
+    transform: scale(1.03);
+        box-shadow:
+        inset 0 8px 10px rgba(255, 255, 255, 0.8),
+        inset 0 -8px 10px rgba(109, 40, 217, 0.6),
+        0 0 30px rgba(168, 85, 247, 0.9);
+}
+
+.aside-star {
+    font-size: 100px;
+    color: #D8C7FF;
+}

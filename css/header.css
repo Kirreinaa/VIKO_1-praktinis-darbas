@@ -1,0 +1,24 @@
+header {
+    font-family: "arcade";
+    padding: 18px 30px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(168, 85, 247, 0.25);
+    background: linear-gradient(
+        to right,
+        #D8C7FF,
+        #B388FF,
+        #A855F7
+    );
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: #20104F;
+    cursor: pointer;
+    word-spacing: 3px;
+}

@@ -1,0 +1,45 @@
+/* TODO: OpenDislexic font */
+
+@import url(header.css);
+@import url(footer.css);
+@import url(card.css);
+@import url(home.css);
+@import url(home-aside.css);
+@import url(book.css);
+@import url(about.css);
+@import url(booking-aside.css);
+
+@font-face {
+    font-family: 'arcade';
+    src: url(../font/ARCADECLASSIC.TTF) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    /* min-width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    background-color: #080A18; 
+}
+
+main {
+    display: flex;
+    flex: 1;
+    padding: 30px;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
