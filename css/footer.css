@@ -1,0 +1,18 @@
+footer {
+    font-family: "arcade";
+    background-color: #d6c8ff;
+    margin-top: auto;
+    padding: 10px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 950px;
+    height: 55px;
+    justify-content: center;
+    background: linear-gradient(
+    to right,
+    #D8C7FF,
+    #B388FF,
+    #A855F7
+    );
+}

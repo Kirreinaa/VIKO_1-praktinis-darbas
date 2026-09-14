@@ -1,0 +1,59 @@
+.booking-form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    color: #D8C7FF;
+    margin-top: 50px;
+    border:3px solid #A855F7;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.book-button {
+    font-family: "arcade";
+    cursor: pointer;
+    border-radius: 30px;
+    border: 2px solid #D8C7FF;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #080A18;
+    width: 220px;
+    height: 42px;
+    margin-top: 20px;  
+
+    background: linear-gradient(
+    to bottom,
+    #D8C7FF,
+    #B388FF,
+    #A855F7
+); 
+
+    box-shadow:
+    inset 0 8px 10px rgba(255, 255, 255, 0.8),
+    inset 0 -8px 10px rgba(109, 40, 217, 0.6),
+    0 0 20px rgba(168, 85, 247, 0.7);
+
+    transition: 0.2s;
+}
+
+.booking-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-title {
+    font-family: "arcade";
+    font-size: 64px;
+    color: #D8C7FF;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.booking-info {
+    color: #A9A3C7;
+    max-width: 80%;
+}
