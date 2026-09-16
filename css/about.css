@@ -1,9 +1,31 @@
-.about-title {
+
+.about-title-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-title-h1 {
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 100%;
-    color: rgb(152, 151, 151);
+    color: #B388FF;
+    font-size: 60px;
+    font-family:"arcade";
+    letter-spacing: 3px;
+    /* margin-bottom: 10px; */
+    text-shadow: 
+        0 0 30px rgba(168, 85, 247, 0.9);
+    ;
+}
+
+.about-title-h2 {
+    font-family:"arcade";
+    color: #A855F7;
+    margin-bottom: 20px;
+    word-spacing: 3px;
+    font-size: 32px;
 }
 
 .about-intro {
@@ -14,14 +36,25 @@
 }
 
 .about-photo {
-    width: 800px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     margin-right: auto;
 }
-
+/* 
 .about-photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+} */
+
+.about-description {
+    color: #A9A3C7;
+}
+
+.about-main {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    margin-right: 40px;
 }
