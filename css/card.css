@@ -1,19 +1,29 @@
+
+
 .card {
-    border: 5px solid  rgb(152, 151, 151);
-    padding: 16px;
+    border: 2px solid #A855F7;
+    padding: 0;
     width: 300px;
-    height: 450px;
-    background-color: rgb(89, 88, 87);
+    height: 480px;
+    background-color: #101126;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    transition: 0.5s;
+    color: #D8C7FF;
+    overflow: hidden;
+    box-sizing: border-box;
 }
+
 
 .card-text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 16px;
+    max-width: 85%;
+    margin-left: 10px;
+    /* margin: 5px auto 0; ???? */
 }
 
 #cards {
@@ -23,4 +33,117 @@
     padding: 20px;
     margin-top: 52px;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card:hover {
+    /* transform: scale(1.01); */
+    transition: 0.5s;
+
+    box-shadow: 
+        0 0 40px rgba(168, 85, 247, 0.7);
+}
+
+
+.outfit-card-photo {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    object-position: center 20%;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: calc(100% - 20px)
+}
+
+.outfit-title {
+    font-family: "arcade";
+    letter-spacing: 2px;
+}
+
+.buy-button {
+    font-family: "arcade";
+    cursor: pointer;
+    border-radius: 30px;
+    border: 2px solid #D8C7FF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #080A18;
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;  
+    margin-right: 10px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    background: linear-gradient(
+    to bottom,
+    #D8C7FF,
+    #B388FF,
+    #A855F7
+); 
+
+    box-shadow:
+    inset 0 8px 10px rgba(255, 255, 255, 0.8),
+    inset 0 -8px 10px rgba(109, 40, 217, 0.6),
+    0 0 20px rgba(168, 85, 247, 0.7);
+
+    transition: 0.2s;
+}
+
+.buy-button:active {
+    transform: translateY(-3px);
+
+    background: linear-gradient(
+        to bottom,
+        #8F78B8,
+        #62439A,
+        #3D236B
+    );
+
+    box-shadow:
+        inset 0 6px 8px rgba(0, 0, 0, 0.4),
+        inset 0 -6px 8px rgba(40, 10, 90, 0.9),
+        0 0 8px rgba(168, 85, 247, 0.3);
+}
+
+.card-symbols {
+    word-spacing: 3px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.outfit-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: #080A18;
+    padding: 6px;
+    background: linear-gradient(
+        to bottom,
+        #D8C7FF,
+        #B388FF,
+        #A855F7
+); 
+    
+
+    box-shadow:
+    inset 0 8px 10px rgba(255, 255, 255, 0.8),
+    inset 0 -8px 10px rgba(109, 40, 217, 0.6);
+}
+
+.outfit-price {
+    font-size: 20px;
+    /* margin-left: 10px; */
+    padding: 10px;
+}
+
+.card-price-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-top: auto;
 }

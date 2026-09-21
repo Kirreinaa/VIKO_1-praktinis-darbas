@@ -28,6 +28,7 @@
     box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
     color: #A9A3C7;
     align-self: center;
+    background-color: #101126
 }
 
 .home-aside h2 {
@@ -36,6 +37,7 @@
     font-size: 28px;
     margin-bottom: 20px; 
     word-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .aside-description {

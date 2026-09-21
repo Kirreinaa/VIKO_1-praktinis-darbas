@@ -11,6 +11,11 @@ header {
         #B388FF,
         #A855F7
     );
+
+    box-shadow:
+        inset 0 8px 10px rgba(255, 255, 255, 0.8),
+        inset 0 -8px 10px rgba(109, 40, 217, 0.6),
+        0 0 20px rgba(168, 85, 247, 0.7);
 }
 
 nav {

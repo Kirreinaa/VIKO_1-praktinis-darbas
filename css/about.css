@@ -2,21 +2,20 @@
 .about-title-container {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
 }
 
 .about-title-h1 {
     display: flex;
     flex-direction: column;
-    text-align: center;
     width: 100%;
-    color: #B388FF;
+    color: #D8C7FF;
     font-size: 60px;
     font-family:"arcade";
     letter-spacing: 3px;
     /* margin-bottom: 10px; */
-    text-shadow: 
-        0 0 30px rgba(168, 85, 247, 0.9);
+    /* text-shadow: 
+        0 0 30px rgba(168, 85, 247, 0.9); */
     ;
 }
 
@@ -28,33 +27,96 @@
     font-size: 32px;
 }
 
-.about-intro {
+/* .about-intro {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
-}
+
+} */
 
 .about-photo {
-    width: 500px;
+    width: 900px;
     height: 300px;
     object-fit: cover;
-    margin-right: auto;
+    margin-right: 60px;
+    border-radius: 20px;
+    transition: 0.5s;
 }
-/* 
-.about-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
+
+.about-photo:hover {
+    transform: scale(1.01);
+    transition: 0.5s;
+
+    /* box-shadow: 
+        0 0 40px rgba(168, 85, 247, 0.7); */
+}
 
 .about-description {
     color: #A9A3C7;
+    max-width: 70%;
+    /* color: rgb(194, 192, 192); */
 }
 
 .about-main {
     display: flex;
     flex-direction: column;
-    max-width: 40%;
+    /* max-width: 40%; */
     margin-right: 40px;
+}
+
+.about-card {
+    background-color: #101126;
+    border: 2px solid #8B5CFF;
+    width: 900px;
+    height: 200px;
+    border-radius: 20px;
+    color: #A9A3C7;
+    width: 100%;
+    transition: 0.2s;
+
+    box-shadow:
+        0 0 20px rgba(168, 85, 247, 0.7);
+}
+
+.about-card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.about-card-number {
+    font-size: 28px;
+    color: #A855F7; /* OR COMMENT? */
+
+}
+
+.about-card-text {
+    padding: 20px;
+}
+
+.about-card-title {
+    font-size: 42px;
+    font-family: "arcade";
+    color: #F1EDFF;
+}
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-card:hover {
+    transform: scale(1.01);
+    transition: 0.5s;
+
+    box-shadow: 
+        0 0 40px rgba(168, 85, 247, 0.7);
 }
