@@ -84,3 +84,25 @@
     display: block;
 
 }
+
+.header-line-aside {
+    border-radius: 17px 17px 0 0;
+    margin: 0 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: #080A18;
+    padding: 6px;
+    background: linear-gradient(
+        to bottom,
+        #D8C7FF,
+        #B388FF,
+        #A855F7
+); 
+    
+
+    box-shadow:
+    inset 0 8px 10px rgba(255, 255, 255, 0.8),
+    inset 0 -8px 10px rgba(109, 40, 217, 0.6);
+}

@@ -36,12 +36,12 @@
 } */
 
 .about-photo {
-    width: 900px;
+    width: 100%;
     height: 300px;
     object-fit: cover;
-    margin-right: 60px;
-    border-radius: 20px;
-    transition: 0.5s;
+    display: block;
+    border-radius: 0;
+    
 }
 
 .about-photo:hover {
@@ -119,4 +119,37 @@
 
     box-shadow: 
         0 0 40px rgba(168, 85, 247, 0.7);
+}
+
+.header-line-aside-about {
+    border-radius: 17px 17px 0 0;
+    width: 100%;
+    box-sizing: border-box;
+    /* margin: 0 0px 30px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: #080A18;
+    padding: 6px;
+    background: linear-gradient(
+        to bottom,
+        #D8C7FF,
+        #B388FF,
+        #A855F7
+); 
+    
+
+    box-shadow:
+    inset 0 8px 10px rgba(255, 255, 255, 0.8),
+    inset 0 -8px 10px rgba(109, 40, 217, 0.6);
+}
+
+.about-photo-window {
+    width: 900px;
+    border: 2px solid #A855F7;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
+    background-color: #101126;
 }
