@@ -1,5 +1,4 @@
 .book-aside {
-
     margin-top: 50px;
     border-radius: 20px;
     box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
@@ -40,15 +39,13 @@
 .book-aside-title {
 
     color: #D8C7FF;
-    padding: 15px;
     display: flex;
-    justify-content: center;
-
+    font-size: 20px;
 }
 
 .book-aside-description {
 
-    color: #A9A3C7;
+    color: #D8C7FF;
     display: flex;
     /* justify-content: center; */
     flex-direction: column;
