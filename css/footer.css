@@ -1,7 +1,7 @@
 footer {
     font-family: "arcade";
     background-color: #d6c8ff;
-    font-size: 10px;
+    font-size: 16px;
     display: flex;
     justify-content: space-between;
     padding: 30px 50px;
@@ -24,8 +24,10 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap:200px;
-    align-items: center;
+    gap:100px;
+    align-items: flex-start;
+    margin-left: 65px;
+    width: 100%;
 }
 
 .footer-container {
@@ -37,4 +39,68 @@ footer {
     justify-content: space-between;
     letter-spacing: 3px;
     word-spacing: 3px;
+}
+
+.text-input-newspapper {
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
+    border: 2px solid #A855F7;
+    height: 45px;
+    background-color: #080A18;
+    outline: none;
+    padding: 5px;
+    width: 200px;
+    color: #A9A3C7
+}
+
+.subscribe-button {
+    font-family: "arcade";
+    cursor: pointer;
+    border-radius: 30px;
+    border: 2px solid #D8C7FF;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #080A18;
+    width: 120px;
+    height: 42px;
+    
+
+    background: linear-gradient(
+    to bottom,
+    #D8C7FF,
+    #B388FF,
+    #A855F7
+); 
+
+    box-shadow:
+    inset 0 8px 10px rgba(255, 255, 255, 0.8),
+    inset 0 -8px 10px rgba(109, 40, 217, 0.6),
+    0 0 20px rgba(168, 85, 247, 0.7);
+
+    transition: 0.2s;
+}
+
+.subscribe-button:hover {
+    transform: scale(1.03);
+        box-shadow:
+        inset 0 8px 10px rgba(255, 255, 255, 0.8),
+        inset 0 -8px 10px rgba(109, 40, 217, 0.6),
+        0 0 30px rgba(168, 85, 247, 0.9);
+}
+
+.subscribe-field{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-content {
+    margin-top: 50px;
+}
+
+.gertting-started-footer .footer-title-row {
+    white-space: nowrap;
 }
