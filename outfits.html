@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="lt">
 
 <head>
     <meta charset="UTF-8">
@@ -22,150 +23,183 @@
     </header>
 
     <main>
-        <div class="cards-container">
-            <div class="search-container">
-                <input class="text-input-search" type="text" placeholder="Search for outfits...">
-                <button class="search-button" onclick="alert(' \n✦ VYBE SEARCH ✦ \n \n We looked everywhere. \n Your perfect outfit is hiding.')">SEARCH</button>
+        <div class="outfits-content-container">
+
+            <aside class="outfits-aside">
+
+                <div class="header-line-card">
+                    <p class="outfit-title">FILTERS</p>
+                    <p class="card-symbols">─ □ ×</p>
+                </div>
+
+                <div class="filter-content">
+
+                    <div class="filter-section">
+                        <h3>STYLE</h3>
+
+                        <label class="filter-option">
+                            <input type="checkbox"> Y2K
+                        </label>
+
+                        <label class="filter-option">
+                            <input type="checkbox"> Cyber
+                        </label>
+
+                        <label class="filter-option">
+                            <input type="checkbox"> Streetwear
+                        </label>
+
+                        <label class="filter-option">
+                            <input type="checkbox"> Goth
+                        </label>
+
+                        <label class="filter-option">
+                            <input type="checkbox"> Pink
+                        </label>
+                    </div>
+
+                    <div class="filter-section">
+                        <h3>PRICE</h3>
+
+                        <label class="filter-option">
+                            <input type="checkbox"> Under $20
+                        </label>
+
+                        <label class="filter-option">
+                            <input type="checkbox"> $20–$40
+                        </label>
+
+                        <label class="filter-option">
+                            <input type="checkbox"> $40+
+                        </label>
+                    </div>
+
+                </div>
+
+            </aside>
+
+            <div class="cards-container">
+
+                <div class="search-container">
+                    <input class="text-input-search"
+                           type="text"
+                           placeholder="Search for outfits...">
+
+                    <button class="search-button"
+                        onclick="alert('✦ VYBE SEARCH ✦\n\nWe looked everywhere.\nYour perfect outfit is hiding.')">
+                        SEARCH
+                    </button>
+                </div>
+
+                <div id="cards">
+
+                    <div class="card">
+                        <div class="header-line-card">
+                            <p class="outfit-title">STREET CODE</p>
+                            <p class="card-symbols">─ □ ×</p>
+                        </div>
+                        <img class="outfit-card-photo" src="Images/1outfit.jpg" alt="Street Code outfit">
+                        <p class="card-text">Urban layers with a casual streetwear vibe.</p>
+                        <div class="card-price-button">
+                            <p class="outfit-price">9,99$</p>
+                            <button class="buy-button">BUY NOW</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="header-line-card">
+                            <p class="outfit-title">DIGITAL KISS</p>
+                            <p class="card-symbols">─ □ ×</p>
+                        </div>
+                        <img class="outfit-card-photo" src="Images/2outfit.jpg" alt="Digital Kiss outfit">
+                        <p class="card-text">Soft pink details mixed with futuristic accents.</p>
+                        <div class="card-price-button">
+                            <p class="outfit-price">12,99$</p>
+                            <button class="buy-button">BUY NOW</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="header-line-card">
+                            <p class="outfit-title">DEAD PIXEL</p>
+                            <p class="card-symbols">─ □ ×</p>
+                        </div>
+                        <img class="outfit-card-photo" src="Images/3outfit.jpg" alt="Dead Pixel outfit">
+                        <p class="card-text">Dark tones and cyber-inspired details.</p>
+                        <div class="card-price-button">
+                            <p class="outfit-price">15,99$</p>
+                            <button class="buy-button">BUY NOW</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="header-line-card">
+                            <p class="outfit-title">PINK PROTOCOL</p>
+                            <p class="card-symbols">─ □ ×</p>
+                        </div>
+                        <img class="outfit-card-photo" src="Images/4outfit.jpg" alt="Pink Protocol outfit">
+                        <p class="card-text">Bold pink look with a playful Y2K aesthetic.</p>
+                        <div class="card-price-button">
+                            <p class="outfit-price">19,99$</p>
+                            <button class="buy-button">BUY NOW</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="header-line-card">
+                            <p class="outfit-title">CHROME BABY</p>
+                            <p class="card-symbols">─ □ ×</p>
+                        </div>
+                        <img class="outfit-card-photo" src="Images/5outfit.jpg" alt="Chrome Baby outfit">
+                        <p class="card-text">Metallic details with a futuristic edge.</p>
+                        <div class="card-price-button">
+                            <p class="outfit-price">24,99$</p>
+                            <button class="buy-button">BUY NOW</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="header-line-card">
+                            <p class="outfit-title">SIDEWALK STAR</p>
+                            <p class="card-symbols">─ □ ×</p>
+                        </div>
+                        <img class="outfit-card-photo" src="Images/6outfit.jpg" alt="Sidewalk Star outfit">
+                        <p class="card-text">Casual street style made to stand out.</p>
+                        <div class="card-price-button">
+                            <p class="outfit-price">29,99$</p>
+                            <button class="buy-button">BUY NOW</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="header-line-card">
+                            <p class="outfit-title">LOST SIGNAL</p>
+                            <p class="card-symbols">─ □ ×</p>
+                        </div>
+                        <img class="outfit-card-photo" src="Images/7outfit.jpg" alt="Lost Signal outfit">
+                        <p class="card-text">Dark oversized layers with a cyber aesthetic.</p>
+                        <div class="card-price-button">
+                            <p class="outfit-price">34,99$</p>
+                            <button class="buy-button">BUY NOW</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="header-line-card">
+                            <p class="outfit-title">MAIN CHARACTER</p>
+                            <p class="card-symbols">─ □ ×</p>
+                        </div>
+                        <img class="outfit-card-photo" src="Images/8outfit.jpg" alt="Main Character outfit">
+                        <p class="card-text">A confident statement look inspired by Y2K fashion.</p>
+                        <div class="card-price-button">
+                            <p class="outfit-price">49,99$</p>
+                            <button class="buy-button">BUY NOW</button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
-            <div id="cards">
-
-                <div class="card">
-                    <div class="header-line-card">
-                        <p class="outfit-title">STREET CODE</p>
-                        <p class="card-symbols">─ □ ×</p>
-                    </div>
-
-                    <img class="outfit-card-photo" src="Images/1outfit.jpg" alt="Street Code outfit">
-
-                    <p class="card-text">Urban layers with a casual streetwear vibe.</p>
-
-                    <div class="card-price-button">
-                        <p class="outfit-price">9,99$</p>
-                        <button class="buy-button">BUY NOW</button>
-                    </div>
-                </div>
-
-
-                <div class="card">
-                    <div class="header-line-card">
-                        <p class="outfit-title">DIGITAL KISS</p>
-                        <p class="card-symbols">─ □ ×</p>
-                    </div>
-
-                    <img class="outfit-card-photo" src="Images/2outfit.jpg" alt="Digital Kiss outfit">
-
-                    <p class="card-text">Soft pink details mixed with futuristic accents.</p>
-
-                    <div class="card-price-button">
-                        <p class="outfit-price">12,99$</p>
-                        <button class="buy-button">BUY NOW</button>
-                    </div>
-                </div>
-
-
-                <div class="card">
-                    <div class="header-line-card">
-                        <p class="outfit-title">DEAD PIXEL</p>
-                        <p class="card-symbols">─ □ ×</p>
-                    </div>
-
-                    <img class="outfit-card-photo" src="Images/3outfit.jpg" alt="Dead Pixel outfit">
-
-                    <p class="card-text">Dark tones and cyber-inspired details.</p>
-
-                    <div class="card-price-button">
-                        <p class="outfit-price">15,99$</p>
-                        <button class="buy-button">BUY NOW</button>
-                    </div>
-                </div>
-
-
-                <div class="card">
-                    <div class="header-line-card">
-                        <p class="outfit-title">PINK PROTOCOL</p>
-                        <p class="card-symbols">─ □ ×</p>
-                    </div>
-
-                    <img class="outfit-card-photo" src="Images/4outfit.jpg" alt="Pink Protocol outfit">
-
-                    <p class="card-text">Bold pink look with a playful Y2K aesthetic.</p>
-
-                    <div class="card-price-button">
-                        <p class="outfit-price">19,99$</p>
-                        <button class="buy-button">BUY NOW</button>
-                    </div>
-                </div>
-
-
-                <div class="card">
-                    <div class="header-line-card">
-                        <p class="outfit-title">CHROME BABY</p>
-                        <p class="card-symbols">─ □ ×</p>
-                    </div>
-
-                    <img class="outfit-card-photo" src="Images/5outfit.jpg" alt="Chrome Baby outfit">
-
-                    <p class="card-text">Metallic details with a futuristic edge.</p>
-
-                    <div class="card-price-button">
-                        <p class="outfit-price">24,99$</p>
-                        <button class="buy-button">BUY NOW</button>
-                    </div>
-                </div>
-
-
-                <div class="card">
-                    <div class="header-line-card">
-                        <p class="outfit-title">SIDEWALK STAR</p>
-                        <p class="card-symbols">─ □ ×</p>
-                    </div>
-
-                    <img class="outfit-card-photo" src="Images/6outfit.jpg" alt="Sidewalk Star outfit">
-
-                    <p class="card-text">Casual street style made to stand out.</p>
-
-                    <div class="card-price-button">
-                        <p class="outfit-price">29,99$</p>
-                        <button class="buy-button">BUY NOW</button>
-                    </div>
-                </div>
-
-
-                <div class="card">
-                    <div class="header-line-card">
-                        <p class="outfit-title">LOST SIGNAL</p>
-                        <p class="card-symbols">─ □ ×</p>
-                    </div>
-
-                    <img class="outfit-card-photo" src="Images/7outfit.jpg" alt="Lost Signal outfit">
-
-                    <p class="card-text">Dark oversized layers with a cyber aesthetic.</p>
-
-                    <div class="card-price-button">
-                        <p class="outfit-price">34,99$</p>
-                        <button class="buy-button">BUY NOW</button>
-                    </div>
-                </div>
-
-
-                <div class="card">
-                    <div class="header-line-card">
-                        <p class="outfit-title">MAIN CHARACTER</p>
-                        <p class="card-symbols">─ □ ×</p>
-                    </div>
-
-                    <img class="outfit-card-photo" src="Images/8outfit.jpg" alt="Main Character outfit">
-
-                    <p class="card-text">A confident statement look inspired by Y2K fashion.</p>
-
-                    <div class="card-price-button">
-                        <p class="outfit-price">49,99$</p>
-                        <button class="buy-button">BUY NOW</button>
-                    </div>
-                </div>
-
-            </div>
         </div>
     </main>
 
@@ -176,5 +210,4 @@
     <script src="main.js"></script>
 
 </body>
-
 </html>
